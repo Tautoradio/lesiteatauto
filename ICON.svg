@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Calque_1"
+   data-name="Calque 1"
+   viewBox="0 0 40 40.000001"
+   version="1.1"
+   sodipodi:docname="ICON.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   width="40"
+   height="40"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview17"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="16.506811"
+     inkscape:cx="12.63115"
+     inkscape:cy="18.598383"
+     inkscape:window-width="1920"
+     inkscape:window-height="1112"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Calque_1" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">
+      .cls-1 {
+        fill: #202020;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <rect
+     style="fill:#ffffff;fill-opacity:1;stroke-width:56.693;stroke-linecap:round;paint-order:fill markers stroke"
+     id="rect1008"
+     width="40"
+     height="40"
+     x="0"
+     y="0" />
+  <polygon
+     class="cls-1"
+     points="0,13.69 0,15.4 2.01,15.4 3.72,15.4 5.73,15.4 5.73,13.69 3.72,13.69 3.72,1.71 4.02,1.71 4.02,13.39 5.73,13.39 5.73,1.71 5.73,0.35 5.73,0 3.72,0 2.01,0 0,0 0,0.35 0,1.71 0,13.39 1.71,13.39 1.71,1.71 2.01,1.71 2.01,13.69 "
+     id="polygon12"
+     style="fill:#000000;fill-opacity:1"
+     transform="matrix(1.9480519,0,0,1.9480519,14.418831,5.0000004)" />
+</svg>
