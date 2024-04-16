@@ -1,0 +1,31 @@
+body{
+    background-color: red;
+}
+
+.maincontentenveloppe{
+    display: flex;
+}
+
+.fallinlove{
+    display: none;
+}
+
+.angry{
+    display: none;
+}
+
+.scenesdevies{
+    display: none;
+}
+
+.loveyourself{
+    display: none;
+}
+
+.laroutedushirmeck{
+    display: none;  
+}
+
+.generalinfo{
+    background-color: red;
+}

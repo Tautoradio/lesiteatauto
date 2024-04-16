@@ -1,0 +1,51 @@
+/* INFOS */
+.generalinfo{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    display: flex;
+
+    visibility: hidden;
+    opacity: 0;
+    transform: translate(4px, 20px);
+}
+
+.sousjacente{
+    width: 98.84%;
+    height: 98%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+.contentinfo{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(33.33%, auto));
+    grid-auto-rows: minmax(50%, auto);
+}
+
+.communeparcase {
+    display: flex;
+    flex-direction: column;
+}
+
+.paddingright{
+    margin-right: 4%;
+}
+
+.casepourmapart {
+    flex-direction: column;
+}
+
+.texttoshow{
+    visibility: hidden;
+}
+
+.pourhidetexte{
+    visibility: hidden;
+}
