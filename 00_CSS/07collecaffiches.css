@@ -1,0 +1,39 @@
+body{
+    background-color: yellow;
+}
+
+.maincontentenveloppe{
+    display: flex;
+}
+
+.hauteurligneaffiche{
+    flex-direction: row;
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.imageaffiche{
+    display: flex;
+    width: 55%;
+    flex-shrink: 0;
+}
+
+.imageaffiche img{
+    max-width: 100%;
+}
+
+.retouralaligne{
+    overflow-wrap: break-word;
+    white-space: wrap;
+}
+
+.infoaffiche{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+    max-width: 45%;
+}
+
+.generalinfo{
+    background-color: yellow;
+}

@@ -1,0 +1,160 @@
+body{
+    background-color: black;
+}
+
+.maincontentenveloppe{
+    display: flex;
+}
+
+/* POUR LE HEADER */
+.buttontypoforblack{
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    transition: color 0.2s ease-out;
+    position: relative;
+}
+
+.buttontypoforblack:hover{
+    color: black;
+}
+
+.overwhiteeffect:hover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    clip-path: inset(100% 0 0 0);
+    animation: fadeInClipPath 0.3s ease-out forwards;
+    z-index: -1;
+}
+
+@keyframes fadeInClipPath {
+    from {
+        clip-path: inset(100% 0 0 0);
+    }
+    to {
+        clip-path: inset(0% 0 0 0);
+    }
+}
+
+.overwhiteeffect::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    clip-path: inset(0% 0 0 0);
+    animation: fadeOutClipPath 0.3s ease-out forwards;
+    z-index: -1;
+}
+
+@keyframes fadeOutClipPath {
+    to {
+        clip-path: inset(100% 0 0 0);
+    }
+}
+
+/* CONTENU */
+.szemet{
+    display: none;
+}
+
+.adjectifsqualificatifs{
+    display: none;
+}
+
+.violencesfrancaises{
+    display: none;
+}
+
+.loveisnotdefined{
+    display: none;
+}
+
+.generalart {
+    flex-direction: column;
+    position: relative;
+    flex: 1 1 0;
+    min-height: 100%;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+
+.divpartfirst {
+    display: flex;
+    flex-direction: row;
+    min-height: 100%;
+}
+
+.colonnegaucheart {
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.colonnedroiteart {
+    display: flex;
+    flex: 1 1 0;
+}
+
+.nouvelleligne {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+}
+
+.contentimg{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+}
+
+.contentimg img{
+    max-width: 100%;
+}
+
+.premierecol{flex: 1 1 0;}
+.deuxiemecol{flex: 1 1 0;}
+.troisiemecol{flex: 1 1 0;}
+.quatriemecol{flex: 1 1 0;}
+.cinquiemecol{flex: 1 1 0;}
+.sixiemecol{flex: 1 1 0;}
+
+.marginpadding{
+    padding: 1%;
+}
+
+.paddingleft{
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+}
+
+.paddingright{
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+}
+
+.pourdisplay{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.ligneparmot{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.generalinfo{
+    background-color: black;
+}
